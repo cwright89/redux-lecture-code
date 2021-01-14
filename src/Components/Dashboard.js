@@ -20,7 +20,7 @@ class Dashboard extends Component {
     }
 
     componentDidMount(){
-        this.props.getPokemon();
+        // this.props.getPokemon();
     }
 
     render(){
@@ -30,9 +30,9 @@ class Dashboard extends Component {
             <main className='dashboard'>
                 <h1>Your Pokemon</h1>
                 <section>
-                    <img src={pokemon.sprites.front_default} alt={pokemon.name}/>
+                    {/* <img src={pokemon.sprites.front_default} alt={pokemon.name}/>
                     <h3>{pokemon.name}</h3>
-                    <button>Change Pokemon</button>
+                    <button>Change Pokemon</button> */}
                 </section>
             </main>
         )
